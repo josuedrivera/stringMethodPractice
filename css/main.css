@@ -1,0 +1,15 @@
+/* Cascading StyleSheets */
+/* CSS selector */
+textarea {
+	width: 80%;
+	height: 400px;
+	font-size: 12px;
+}
+
+p {
+	padding: 0 40px;
+}
+p::first-letter {
+	font-weight: bold;
+	font-size: 20px;
+}
